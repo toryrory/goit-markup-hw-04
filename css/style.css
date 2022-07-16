@@ -207,7 +207,7 @@ img {
   background-image: var(--background-transparent), url("../images/images-hw-4/background-people.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-title {
