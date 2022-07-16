@@ -404,7 +404,7 @@ img {
   fill: var(--icons-colour);
 }
 
-.social-link:hover .social-icon {
+.link:hover .social-icon {
   fill: var(--text-white);
   background-color: var(--logo-blue);
 }
