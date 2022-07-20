@@ -145,21 +145,19 @@ img {
 .link-menu,
 .link-contacts {
   display: flex;
-  text-align: center;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 .icon-mail {
   margin-right: 10px;
-  align-self: center;
   width: 16px;
   height: 12px;
 }
 
 .icon-tel {
   margin-right: 10px;
-  align-self: center;
   width: 10px;
   height: 16px;
 }
@@ -209,7 +207,7 @@ img {
   background-image: var(--background-transparent), url("../images/images-hw-4/background-people.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 
 }
 
@@ -407,7 +405,9 @@ img {
   justify-content: center;
 }
 
-.social-list .social-icon {
+.social-icon {
+  width: 20px;
+  height: 20px;
   fill: var(--icons-colour);
 }
 
@@ -435,7 +435,6 @@ img {
 }
 
 .client-icon {
-  display: flex;
   width: 106px;
   height: 60px;
   fill: var(--icons-colour);
@@ -523,16 +522,11 @@ img {
   background-color: var(--background-footer-icons);
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-}
-
 .footer .social-icon {
   fill: var(--text-white);
 }
 
-.social-item .social-link:hover,
-.social-item .social-link:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--logo-blue);
 }
